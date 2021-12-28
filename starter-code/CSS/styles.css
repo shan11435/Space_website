@@ -1,0 +1,99 @@
+body {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  margin: 0;
+}
+
+h2 {
+  color: #B1D0E0;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 150px;
+  font-family: serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  color: #B1D0E0;
+  margin-top: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: inherit;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+hr {
+  position: relative;
+  top: 30px;
+  right: 550px;
+  width: 500px;
+  height: 1px;
+  background-color: #EEF2FF;
+  border: none;
+}
+
+.info {
+  position: absolute;
+  bottom: 100px;
+  left: 140px;
+}
+
+.nav {
+  position: absolute;
+  background-color: #93B5C6;
+  width: 45%;
+  height: 80px;
+  right: 0;
+  top: 40px;
+}
+
+.home {
+  position: absolute;
+  filter: blur(0px);
+  left: 100px;
+  top: 30px;
+}
+
+.explore {
+  width: 20%;
+  height: 270px;
+  background-color: white;
+  border-radius: 200%;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+
+.destination {
+  position: absolute;
+  left: 200px;
+  top: 30px;
+}
+
+.crew {
+  position: absolute;
+  left: 330px;
+  top: 30px;
+}
+
+.technology {
+  position: absolute;
+  left: 420px;
+  top: 30px;
+}
