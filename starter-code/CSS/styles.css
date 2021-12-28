@@ -1,5 +1,10 @@
-body {
+.body-home {
   background-image: url("../assets/home/background-home-desktop.jpg");
+  margin: 0;
+}
+
+.body-destination {
+  background-image: url("../assets/destination/background-destination-desktop.jpg");
   margin: 0;
 }
 
@@ -84,6 +89,12 @@ hr {
   position: absolute;
   left: 200px;
   top: 30px;
+}
+
+.pick-your-destination {
+  position: absolute;
+  top: 200px;
+  left: 300px;
 }
 
 .crew {
