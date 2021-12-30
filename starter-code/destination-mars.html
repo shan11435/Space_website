@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,33 +10,62 @@
 
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body class = "body-destination">
 
-  <div class="nav">
-    <hr>
-    <a class="home" href="index.html"><span>00</span> Home</a>
-    <a class="destination" href="destination-mars.html"><span>01</span> Destination</a>
-    <a class="crew" href="#"><span>02</span> Crew</a>
-    <a class="technology" href="#"><span>03</span> Technology</a>
+<body class="body-destination">
+  <div class="header">
+    <div class="nav">
+      <hr class="nav-bar">
+      <a class="home" href="index.html"><span>00</span> Home</a>
+      <a class="destination" href="destination-mars.html"><span>01</span> Destination</a>
+      <a class="crew" href="#"><span>02</span> Crew</a>
+      <a class="technology" href="#"><span>03</span> Technology</a>
+    </div>
   </div>
 
-  <h2 class = "pick-your-destination"><span>01</span> Pick your destination</h2>
+  <div class="planets">
+    <table>
+      <tr>
+        <td>
+          <h2 class="pick-your-destination"><span class="destination-01">01</span> PICK YOUR DESTINATION</h2>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <div class="mars-links">
+            <a class="links" href="destination-mars.html">MOON</a>
+            <a class="links" href="destination-mars.html">MARS</a>
+            <a class="links" href="destination-mars.html">EUROPA</a>
+            <a class="links" href="destination-mars.html">TITAN</a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><img class="mars" src="assets/destination/image-mars.png" alt="mars"></td>
+        <td class="table-column-description">
+          <h1 class="mars-heading">MARS</h1>
+          <p class="mars-description">Don't forget to pack your hiking boots, you'll need them <br>
+            to tackle olympic Mons, the tallest planetary mountain in <br>
+            our solar system. It's two and a half times the
+            size of <br> Everest!
+          </p>
+          <hr class="mars-description-bar">
+          <table class="mars-table">
+            <tr>
+              <th class="mars-table-heading">AVG. Distance</th>
+              <th class="mars-table-heading">EST. Travel Time</th>
+            </tr>
 
-  Moon
-  Mars
-  Europa
-  Titan
+            <tr>
+              <td class="mars-table-cells">225 MIL. KM</td>
+              <td class="mars-table-cells">9 MONTHS</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
 
-  Mars
-
-  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons,
-  the tallest planetary mountain in our solar system. It’s two and a half times
-  the size of Everest!
-
-  Avg. distance
-  225 mil. km
-
-  Est. travel time
-  9 months
+    </table>
+  </div>
 </body>
+
 </html>

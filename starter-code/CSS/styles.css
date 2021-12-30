@@ -1,3 +1,17 @@
+h1 {
+  margin: 0;
+}
+
+.nav-bar {
+  position: relative;
+  top: 30px;
+  right: 550px;
+  width: 500px;
+  height: 1px;
+  background-color: #EEF2FF;
+  border: none;
+}
+
 .body-home {
   background-image: url("../assets/home/background-home-desktop.jpg");
   margin: 0;
@@ -8,7 +22,125 @@
   margin: 0;
 }
 
-h2 {
+.header {
+  width: 100%;
+  height: 200px;
+  border: solid white 2px;
+}
+
+.planets {
+  width: 100%;
+  text-align: center;
+  border: solid white 2px;
+}
+
+.nav {
+  position: absolute;
+  display: block;
+  background-color: #93B5C6;
+  width: 45%;
+  height: 80px;
+  right: 0;
+  top: 40px;
+}
+
+.home {
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  text-decoration: inherit;
+  color: #F4F9F9
+}
+
+.destination {
+  position: absolute;
+  left: 200px;
+  top: 30px;
+  text-decoration: inherit;
+  color: #F4F9F9
+}
+
+.crew {
+  position: absolute;
+  left: 330px;
+  top: 30px;
+  text-decoration: inherit;
+  color: #F4F9F9
+}
+
+.technology {
+  position: absolute;
+  left: 420px;
+  top: 30px;
+  text-decoration: inherit;
+  color: #F4F9F9
+}
+
+.pick-your-destination {
+  font-family: sans-serif;
+  color: #B1D0E0;
+}
+
+.destination-01 {
+  color: #787A91;
+  padding-right: 20px;
+}
+
+.mars-heading {
+  font-size: 120px;
+  color: white;
+  font-weight: normal;
+  text-align: left;
+}
+
+.mars-description {
+  color: #B1D0E0;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.links {
+  padding-right: 30px;
+  color: #B1D0E0;
+  text-decoration: inherit;
+}
+
+.mars-description-bar {
+  width: 100%;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  background-color: white; /* Modern Browsers */
+}
+
+.mars-table-heading {
+  color: #D3E0EA;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
+.mars-table-cells {
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  padding-right: 60px;
+  text-align: left;
+}
+
+.mars-links {
+  text-align: center;
+}
+
+.table-column-description {
+  line-height: 1.4;
+  padding-left: 100px;
+}
+
+/*
+.home-heading {
   color: #B1D0E0;
   font-weight: normal;
   margin-bottom: 10px;
@@ -17,14 +149,8 @@ h2 {
 h1 {
   color: white;
   font-size: 150px;
-  font-family: serif;
   font-weight: normal;
   margin: 0;
-}
-
-p {
-  color: #B1D0E0;
-  margin-top: 20px;
 }
 
 span {
@@ -43,36 +169,15 @@ h3 {
   font-family: sans-serif;
 }
 
-hr {
-  position: relative;
-  top: 30px;
-  right: 550px;
-  width: 500px;
-  height: 1px;
-  background-color: #EEF2FF;
-  border: none;
+.home-paragrpah {
+  color: #B1D0E0;
+  margin-top: 20px;
 }
 
 .info {
   position: absolute;
   bottom: 100px;
   left: 140px;
-}
-
-.nav {
-  position: absolute;
-  background-color: #93B5C6;
-  width: 45%;
-  height: 80px;
-  right: 0;
-  top: 40px;
-}
-
-.home {
-  position: absolute;
-  filter: blur(0px);
-  left: 100px;
-  top: 30px;
 }
 
 .explore {
@@ -85,26 +190,18 @@ hr {
   right: 100px;
 }
 
-.destination {
+.destination-links {
   position: absolute;
-  left: 200px;
-  top: 30px;
+  top: 280px;
+  right: 200px;
 }
 
-.pick-your-destination {
-  position: absolute;
-  top: 200px;
-  left: 300px;
-}
 
-.crew {
-  position: absolute;
-  left: 330px;
-  top: 30px;
-}
 
-.technology {
-  position: absolute;
-  left: 420px;
-  top: 30px;
+
+
+.planets {
+  display: block;
+  height: 200px;
 }
+*/
