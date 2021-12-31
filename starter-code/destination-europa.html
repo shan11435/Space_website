@@ -1,59 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
 
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
-  <div class="nav">
-    <hr>
-    <a class="home" href="index.html"><span>00</span> Home</a>
-    <a class="destination" href="destination-mars.html"><span>01</span> Destination</a>
-    <a class="crew" href="#"><span>02</span> Crew</a>
-    <a class="technology" href="#"><span>03</span> Technology</a>
-  </div>
 
-  <h2 class = "pick-your-destination"><span class = "destination-01">01</span> PICK YOUR DESTINATION</h2>
-
-  <div class="destination-links">
-    <a class = "links" href="destination-mars.html">MOON</a>
-    <a class = "links" href="destination-mars.html">MARS</a>
-    <a class = "links" href="destination-mars.html">EUROPA</a>
-    <a class = "links" href="destination-mars.html">TITAN</a>
+<body class="body-destination">
+  <div class="header">
+    <div class="nav">
+      <hr class="nav-bar">
+      <a class="home" href="index.html"><span>00</span> Home</a>
+      <a class="destination" href="destination-mars.html"><span>01</span> Destination</a>
+      <a class="crew" href="crew-engineer.html"><span>02</span> Crew</a>
+      <a class="technology" href="technology-vehicle.html"><span>03</span> Technology</a>
+    </div>
   </div>
 
   <div class="planets">
-    <img class = "mars" src="assets/destination/image-mars.png" alt="mars">
-    <h1 class = "mars-heading">MARS</h1>
+    <table class="mars-table">
+      <tr>
+        <td>
+          <h2 class="pick-your-destination"><span class="destination-01">01</span> PICK YOUR DESTINATION</h2>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="mars-table-cells">
+          <div class="mars-links">
+            <a class="links" href="destination-moon.html">MOON</a>
+            <a class="links" href="destination-mars.html">MARS</a>
+            <a class="links" href="destination-europa.html">EUROPA</a>
+            <a class="links" href="destination-titan.html">TITAN</a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="mars-table-cells"><img class="mars" src="assets/destination/image-europa.png" alt="mars"></td>
+        <td class="table-column-description">
+          <h1 class="mars-heading">EUROPA</h1>
+          <p class="mars-description">
+            The smallest of the four Galilean moons orbiting Jupiter, <br> Europa is a
+            winter lover’s dream. With an icy surface, it’s <br> perfect for a bit of
+            ice skating, curling, hockey, or simple <br> relaxation in your snug
+            wintery cabin.
+          </p>
+          <hr class="mars-description-bar">
+          <table>
+            <tr>
+              <th class="mars-table-heading">AVG. Distance</th>
+              <th class="mars-table-heading">EST. Travel Time</th>
+            </tr>
+
+            <tr>
+              <td class="mars-table-words">628 MIL. KM</td>
+              <td class="mars-table-words">3 YEARS</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
   </div>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Europa
-
-  The smallest of the four Galilean moons orbiting Jupiter, Europa is a
-  winter lover’s dream. With an icy surface, it’s perfect for a bit of
-  ice skating, curling, hockey, or simple relaxation in your snug
-  wintery cabin.
-
-  Avg. distance
-  628 mil. km
-
-  Est. travel time
-  3 years
 </body>
+
 </html>

@@ -1,37 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+<body class="body-destination">
+  <div class="header">
+    <div class="nav">
+      <hr class="nav-bar">
+      <a class="home" href="index.html"><span>00</span> Home</a>
+      <a class="destination" href="destination-mars.html"><span>01</span> Destination</a>
+      <a class="crew" href="crew-engineer.html"><span>02</span> Crew</a>
+      <a class="technology" href="technology-vehicle.html"><span>03</span> Technology</a>
+    </div>
+  </div>
 
-  01 Pick your destination
+  <div class="planets">
+    <table class = "mars-table">
+      <tr>
+        <td>
+          <h2 class="pick-your-destination"><span class="destination-01">01</span> PICK YOUR DESTINATION</h2>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class = "mars-table-cells">
+          <div class="mars-links">
+            <a class="links" href="destination-moon.html">MOON</a>
+            <a class="links" href="destination-mars.html">MARS</a>
+            <a class="links" href="destination-europa.html">EUROPA</a>
+            <a class="links" href="destination-titan.html">TITAN</a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class = "mars-table-cells"><img class="mars" src="assets/destination/image-moon.png" alt="mars"></td>
+        <td class="table-column-description">
+          <h1 class="mars-heading">MOON</h1>
+          <p class="mars-description">
+          See our planet as you’ve never seen it before. A perfect <br> relaxing trip away to help
+          regain perspective and come <br> back refreshed. While you’re there, take in some history
+          <br>by visiting the Luna 2 and Apollo 11 landing sites.
+          </p>
+          <hr class="mars-description-bar">
+          <table>
+            <tr>
+              <th class="mars-table-heading">AVG. Distance</th>
+              <th class="mars-table-heading">EST. Travel Time</th>
+            </tr>
 
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Moon
-
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
-
-  Avg. distance
-  384,400 km
-
-  Est. travel time
-  3 days
+            <tr>
+              <td class="mars-table-words">384,400. KM</td>
+              <td class="mars-table-words">3 DAYS</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
