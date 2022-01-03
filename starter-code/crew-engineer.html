@@ -1,32 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
 
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+<body class="body-crew">
+  <div class="header">
+    <img class="logo" src="assets/shared/logo.svg" alt="company_logo">
+    <div class="nav">
+      <hr class="nav-bar">
+      <a class="home" href="index.html"><span>00</span> Home</a>
+      <a class="destination" href="destination-mars.html"><span>01</span> Destination</a>
+      <a class="crew" href="crew-engineer.html"><span>02</span> Crew</a>
+      <a class="technology" href="technology-vehicle.html"><span>03</span> Technology</a>
+    </div>
+  </div>
 
-  02 Meet your crew
+  <div class="planets">
+    <table class="mars-table">
+      <tr>
+        <td>
+          <h2 class="meet-your-crew"><span class="destination-01">02</span> MEET YOUR CREW</h2>
+        </td>
+      </tr>
 
-  Flight Engineer
-  Anousheh Ansari
+      <tr>
+        <td class = "cell">
+          <h2 class="crew-heading">FLIGHT ENGINEER</h2>
+          <h1 class="crew-big-heading">ANOUSHEH ANSARI</h1>
+          <p class="crew-description">Anousheh Ansari is an Iranian American engineer and co- <br>founder of Prodea Systems.
+            Ansari was the fourth self- <br> funded space tourist, the first self-funded woman to
+            fly <br> to the ISS, and the first Iranian in space.
+          </p>
 
-  Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems.
-  Ansari was the fourth self-funded space tourist, the first self-funded woman to
-  fly to the ISS, and the first Iranian in space.
-  <!--
-  ideas: for the body, put it inside a table and each td will be the number description and images
-  heading will not be part of table
+          <div class="crew-1-link">
+            <a href="crew-engineer.html"><span class="anousheh-anchor">hi</span></a>
+          </div>
 
--->
+          <div class="crew-2-link">
+            <a href="crew-engineer.html"><span class="anousheh-anchor">hi</span></a>
+          </div>
+
+          <div class="crew-3-link">
+            <a href="crew-engineer.html"><span class="anousheh-anchor">hi</span></a>
+          </div>
+
+          <div class="crew-4-link">
+            <a href="crew-engineer.html"><span class="anousheh-anchor">hi</span></a>
+          </div>
+
+
+        </td>
+        <td><img class = "anousheh-pic" src="assets/crew/image-anousheh-ansari.png" alt="mars"></td>
+      </tr>
+
+    </table>
+  </div>
 </body>
+
 </html>
