@@ -320,6 +320,111 @@ span {
   bottom: 80px;
 }
 
+.technology-heading{
+  font-family: sans-serif;
+  color: #B1D0E0;
+  padding-left: 160px;
+}
+
+.technology-link-1 {
+  border: solid #787A91 1px;
+  width:50%;
+  border-radius: 100%;
+  height: 80px;
+  margin-left: 155px;
+}
+
+.technology-link-1:hover{
+  border: solid #787A91 1px;
+  width:50%;
+  border-radius: 100%;
+  height: 80px;
+  margin-left: 155px;
+  background-color: white;
+}
+
+/* this will change the class tech-link-1 to
+text-color-black when div element is hovered over */
+.technology-link-1:hover .tech-link-1 {
+  color: black;
+}
+
+.technology-link-2 {
+  border: solid #787A91 1px;
+  width:50%;
+  border-radius: 100%;
+  height: 80px;
+  margin-left: 155px;
+  margin-top: 30px;
+}
+
+.technology-link-2:hover {
+  border: solid #787A91 1px;
+  width:50%;
+  border-radius: 100%;
+  height: 80px;
+  margin-left: 155px;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.technology-link-2:hover .tech-link-2 {
+  color: black;
+}
+
+.technology-link-3 {
+  border: solid #787A91 1px;
+  width:50%;
+  border-radius: 100%;
+  height: 80px;
+  margin-left: 155px;
+  margin-top: 30px;
+}
+
+.technology-link-3:hover {
+  border: solid #787A91 1px;
+  width:50%;
+  border-radius: 100%;
+  height: 80px;
+  margin-left: 155px;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.technology-link-3:hover .tech-link-3 {
+  color: black;
+}
+
+.tech-link-1 {
+  position: relative;
+  top: 20px;
+  left: 35px;
+  font-size: 30px;
+  text-decoration: inherit;
+  color: white;
+}
+
+.tech-link-2 {
+  position: relative;
+  top: 20px;
+  left: 35px;
+  font-size: 30px;
+  text-decoration: inherit;
+  color: white;
+}
+
+.tech-link-3 {
+  position: relative;
+  top: 20px;
+  left: 35px;
+  font-size: 30px;
+  text-decoration: inherit;
+  color: white;
+}
+
+.link-column {
+  padding-top: 60px;
+}
 /*
 .home-heading {
   color: #B1D0E0;

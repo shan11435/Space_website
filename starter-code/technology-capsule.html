@@ -1,32 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+<body class="body-crew">
+  <div class="header">
+    <img class="logo" src="assets/shared/logo.svg" alt="company_logo">
+    <div class="nav">
+      <hr class="nav-bar">
+      <a class="home" href="index.html"><span>00</span> Home</a>
+      <a class="destination" href="destination-mars.html"><span>01</span> Destination</a>
+      <a class="crew" href="crew-engineer.html"><span>02</span> Crew</a>
+      <a class="technology" href="technology-vehicle.html"><span>03</span> Technology</a>
+    </div>
+  </div>
 
-  03 Space launch 101
+  <div class="planets">
+    <table class="mars-table">
+      <tr>
+        <td>
+          <h2 class="meet-your-crew"><span class="destination-01">02</span> MEET YOUR CREW</h2>
+        </td>
+      </tr>
 
-  1
-  2
-  3
+      <tr>
+        <td class = "cell">
+          <h2 class="crew-heading">MISSION SPECIALIST</h2>
+          <h1 class="crew-big-heading">MARK SHUTTLEWORTH</h1>
+          <p class="crew-description">Mark Richard Shuttleworth is the founder and <br> CEO of Canonical, the company behind
+          the Linux-based <br> Ubuntu operating system. Shuttleworth became the first South
+          African <br> to travel to space as a space tourist.
+          </p>
 
-  The terminology...
-  Space capsule
+          <div class="crew-1-link">
+            <a href="crew-engineer.html"><span class="anousheh-anchor">hi</span></a>
+          </div>
 
-  A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
-  capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
-  you'll spend your time during the flight. It includes a space gym, cinema, 
-  and plenty of other activities to keep you entertained.
+          <div class="crew-2-link">
+            <a href="crew-commander.html"><span class="anousheh-anchor">hi</span></a>
+          </div>
+
+          <div class="crew-3-link">
+            <a href="crew-pilot.html"><span class="anousheh-anchor">hi</span></a>
+          </div>
+
+          <div class="crew-specialist-link">
+            <a href="crew-specialist.html"><span class="anousheh-anchor">hi</span></a>
+          </div>
+
+
+        </td>
+        <td><img class = "anousheh-pic" src="assets/crew/image-mark-shuttleworth.png" alt="mars"></td>
+      </tr>
+
+    </table>
+  </div>
 </body>
+
 </html>
+
+<!--
+00 Home
+01 Destination
+02 Crew
+03 Technology
+
+03 Space launch 101
+
+1
+2
+3
+
+The terminology...
+Space capsule
+
+A space capsule is an often-crewed spacecraft that uses a blunt-body reentry
+capsule to reenter the Earth's atmosphere without wings. Our capsule is where
+you'll spend your time during the flight. It includes a space gym, cinema,
+and plenty of other activities to keep you entertained.
+-->
