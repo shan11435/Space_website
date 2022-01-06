@@ -328,7 +328,7 @@ span {
 
 .technology-link-1 {
   border: solid #787A91 1px;
-  width:50%;
+  width:25%;
   border-radius: 100%;
   height: 80px;
   margin-left: 155px;
@@ -336,7 +336,7 @@ span {
 
 .technology-link-1:hover{
   border: solid #787A91 1px;
-  width:50%;
+  width:25%;
   border-radius: 100%;
   height: 80px;
   margin-left: 155px;
@@ -351,7 +351,7 @@ text-color-black when div element is hovered over */
 
 .technology-link-2 {
   border: solid #787A91 1px;
-  width:50%;
+  width:25%;
   border-radius: 100%;
   height: 80px;
   margin-left: 155px;
@@ -360,7 +360,7 @@ text-color-black when div element is hovered over */
 
 .technology-link-2:hover {
   border: solid #787A91 1px;
-  width:50%;
+  width:25%;
   border-radius: 100%;
   height: 80px;
   margin-left: 155px;
@@ -374,7 +374,7 @@ text-color-black when div element is hovered over */
 
 .technology-link-3 {
   border: solid #787A91 1px;
-  width:50%;
+  width:25%;
   border-radius: 100%;
   height: 80px;
   margin-left: 155px;
@@ -383,7 +383,7 @@ text-color-black when div element is hovered over */
 
 .technology-link-3:hover {
   border: solid #787A91 1px;
-  width:50%;
+  width:25%;
   border-radius: 100%;
   height: 80px;
   margin-left: 155px;
@@ -397,8 +397,8 @@ text-color-black when div element is hovered over */
 
 .tech-link-1 {
   position: relative;
-  top: 20px;
-  left: 35px;
+  top: 22px;
+  left: 32px;
   font-size: 30px;
   text-decoration: inherit;
   color: white;
@@ -406,8 +406,8 @@ text-color-black when div element is hovered over */
 
 .tech-link-2 {
   position: relative;
-  top: 20px;
-  left: 35px;
+  top: 22px;
+  left: 32px;
   font-size: 30px;
   text-decoration: inherit;
   color: white;
@@ -415,8 +415,8 @@ text-color-black when div element is hovered over */
 
 .tech-link-3 {
   position: relative;
-  top: 20px;
-  left: 35px;
+  top: 22px;
+  left: 32px;
   font-size: 30px;
   text-decoration: inherit;
   color: white;
@@ -424,6 +424,33 @@ text-color-black when div element is hovered over */
 
 .link-column {
   padding-top: 60px;
+  width: 23%;
+}
+
+.tech-description {
+  color: #B1D0E0;
+  padding-top: 65px;
+
+}
+
+.tech-link-column {
+  width: 41%;
+}
+
+.tech-heading-column {
+  
+  width: 20%;
+}
+
+.tech-body-description {
+  color: #B1D0E0;
+  padding-right: 60px;
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.launch-vehicle {
+
 }
 /*
 .home-heading {
