@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
 
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
 
+<body class="body-crew">
+  <div class="header">
+    <img class="logo" src="assets/shared/logo.svg" alt="company_logo">
+    <div class="nav">
+      <hr class="nav-bar">
+      <a class="home" href="index.html"><span>00</span> Home</a>
+      <a class="destination" href="destination-mars.html"><span>01</span> Destination</a>
+      <a class="crew" href="crew-engineer.html"><span>02</span> Crew</a>
+      <a class="technology" href="technology-vehicle.html"><span>03</span> Technology</a>
+    </div>
+  </div>
 
-  <!--
-  ideas: for the body, put it inside a table and each td will be the number description and images
-  heading will not be part of table
+  <div>
+    <table>
+      <tr>
+        <td class="tech-heading-column">
+          <h2 class="technology-heading"><span class="destination-01">03</span> SPACE LAUNCH 101</h2>
+        </td>
+      </tr>
+      <tr>
+        <table>
+          <tr>
+            <td class="link-column">
+              <div class="technology-link-1">
+                <a class="tech-link-1" href="technology-vehicle.html">1</a>
+              </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+              <div class="technology-link-2">
+                <a class="tech-link-2" href="technology-capsule.html">2</a>
+              </div>
 
-  03 Space launch 101
+              <div class="technology-spaceport-link">
+                <a class="tech-spaceport-link" href="technology-spaceport.html">3</a>
+              </div>
+            </td>
 
-  1
-  2
-  3
+            <td class="tech-link-column">
+              <p class="tech-description">The terminology...</p>
+              <h1 class="crew-big-heading">SPACEPORT</h1>
+              <p class = "tech-body-description">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft,
+              by analogy to the seaport for ships or airport for aircraft. Based in the
+              famous Cape Canaveral, our spaceport is ideally situated to take advantage
+              of the Earth’s rotation for launch.</p>
+            </td>
+            <td>
+              <img class = "launch-vehicle" src="assets/technology/image-spaceport-portrait.jpg" alt="launch-vehicle-pic">
+            </td>
+          </tr>
+        </table>
+      </tr>
+    </table>
 
-  The terminology...
-  Spaceport
-
-  A spaceport or cosmodrome is a site for launching (or receiving) spacecraft,
-  by analogy to the seaport for ships or airport for aircraft. Based in the
-  famous Cape Canaveral, our spaceport is ideally situated to take advantage
-  of the Earth’s rotation for launch.
--->
+  </div>
 </body>
+
 </html>
+<!--
+ideas: for the body, put it inside a table and each td will be the number description and images
+heading will not be part of table
+
+00 Home
+01 Destination
+02 Crew
+03 Technology
+
+03 Space launch 101
+
+1
+2
+3
+
+The terminology...
+Spaceport
+
+
+-->
