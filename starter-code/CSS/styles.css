@@ -505,15 +505,49 @@ text-color-black when div element is hovered over */
   font-size: 20px;
 }
 
-.launch-vehicle {
-
+.info {
+  position: absolute;
+  bottom: 100px;
+  left: 140px;
 }
-/*
+
 .home-heading {
   color: #B1D0E0;
   font-weight: normal;
   margin-bottom: 10px;
 }
+
+.home-big-heading {
+  color: white;
+  font-family: sans-serif;
+  font-size: 140px;
+
+}
+
+.explore {
+  width: 20%;
+  height: 270px;
+  background-color: white;
+  border-radius: 200%;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+
+.home-paragraph {
+  color: #B1D0E0;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.explore-word {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 36px;
+}
+/*
+
 
 h1 {
   color: white;
@@ -536,26 +570,11 @@ h3 {
   font-family: sans-serif;
 }
 
-.home-paragrpah {
-  color: #B1D0E0;
-  margin-top: 20px;
-}
 
-.info {
-  position: absolute;
-  bottom: 100px;
-  left: 140px;
-}
 
-.explore {
-  width: 20%;
-  height: 270px;
-  background-color: white;
-  border-radius: 200%;
-  position: absolute;
-  bottom: 100px;
-  right: 100px;
-}
+
+
+
 
 .destination-links {
   position: absolute;
